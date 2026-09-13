@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet the administrative, archival, and digital library staff of Maduka University Library Directory.">
+    <title>Maduka University Library | Staff &amp; Faculty Directory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="page-staff" data-page="staff">
+
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <div class="top-bar">
+        <div class="container flex-between">
+            <div class="top-info">
+                <span>📍 Enugu-Ekwegbe Expressway, Igbo-Etiti LGA, Enugu State</span>
+                <span class="divider">|</span>
+                <span>📞 08055091802 MADUKA LIB</span>
+            </div>
+            <div class="top-links">
+                <a href="https://mue.cblibrary.ng" target="_blank" rel="noopener">E-Portal Login</a>
+                <a href="contact.html">Helpdesk</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <div class="container header-grid">
+            <div class="brand-container">
+                <a href="index.html" class="logo-link">
+                    <img src="images/logo.png" alt="Maduka University Logo" class="site-logo">
+                </a>
+                <div class="brand-text">
+                    <h1 class="university-name">Maduka University</h1>
+                    <p class="library-sub">Library Personnel &amp; Faculty Directory</p>
+                    <p class="tagline">"Knowledge, Innovation, and Character"</p>
+                </div>
+            </div>
+            <div class="header-widget">
+                <a href="contact.html" class="btn btn-secondary">Contact Desk</a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Primary Navigation">
+        <div class="container flex-nav">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="staff.html" class="nav-link active" aria-current="page">Staff Directory</a></li>
+                <li class="nav-item"><a href="rules.html" class="nav-link">Rules &amp; Regulations</a></li>
+                <li class="nav-item"><a href="digital.html" class="nav-link">Digital Section</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact &amp; Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content" class="container">
+
+        <section class="page-banner">
+            <h2>Library Staff Directory</h2>
+            <p>Our team of experienced information professionals, systems librarians, and catalogers are committed to supporting your educational journey.</p>
+        </section>
+
+        <!-- Search & Filter Staff Section -->
+        <section class="filter-section">
+            <div class="filter-card">
+                <h3>Filter Staff Directory</h3>
+                <div class="grid-container grid-3">
+                    <div class="form-group">
+                        <label for="staff-search-input">Search Staff by Name:</label>
+                        <input type="text" id="staff-search-input" placeholder="e.g. Dr. Okoro" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="department-filter">Filter by Division:</label>
+                        <select id="department-filter" class="form-control">
+                            <option value="all">All Divisions</option>
+                            <option value="administration">Executive Administration</option>
+                            <option value="digital">E-Library &amp; Systems</option>
+                            <option value="circulation">Circulation Desk</option>
+                            <option value="cataloging">Technical &amp; Cataloging</option>
+                        </select>
+                    </div>
+                    <div class="form-group flex-align-end">
+                        <button type="button" id="reset-staff-filter" class="btn btn-secondary">Reset Filters</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Staff Cards Grid -->
+        <section class="staff-directory">
+            <h2 class="section-title">Library Personnel</h2>
+            
+            <div class="grid-container grid-2" id="staff-cards-wrapper">
+
+                <!-- Staff Member 1 -->
+                <article class="card staff-card" data-category="administration">
+                    <div class="staff-header-flex">
+                        <img src="images/librarian1.jpg" alt="Portrait of Dr. Emmanuel Okoro" class="staff-avatar">
+                        <div class="staff-title-area">
+                            <h3>Dr. Emmanuel Okoro</h3>
+                            <p class="badge badge-green">Executive Administration</p>
+                            <p class="designation">Chief University Librarian</p>
+                        </div>
+                    </div>
+                    <div class="staff-details">
+                        <p><strong>Qualifications:</strong> B.Sc., MLS, Ph.D. in Library &amp; Information Science (UNN)</p>
+                        <p><strong>Responsibilities:</strong> Strategic leadership, policy formulation, institutional budget allocation, and global database acquisitions.</p>
+                        <div class="staff-contact-box">
+                            <p>📧 <strong>Email:</strong> e.okoro@madukauniversity.edu.ng</p>
+                            <p>📞 <strong>Phone:</strong> +234 (0) 803 111 2233</p>
+                            <p>🏢 <strong>Office:</strong> Administrative Block, Room 101</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Staff Member 2 -->
+                <article class="card staff-card" data-category="digital">
+                    <div class="staff-header-flex">
+                        <img src="images/librarian2.jpg" alt="Portrait of Mrs. Chioma Adebayo" class="staff-avatar">
+                        <div class="staff-title-area">
+                            <h3>Mrs. Chioma Adebayo</h3>
+                            <p class="badge badge-green">E-Library &amp; Systems</p>
+                            <p class="designation">Head of Digital Resources &amp; IT Integration</p>
+                        </div>
+                    </div>
+                    <div class="staff-details">
+                        <p><strong>Qualifications:</strong> B.Tech Computer Science, M.Sc. Information Technology</p>
+                        <p><strong>Responsibilities:</strong> Oversight of server infrastructure, remote proxy authentication, digital archive indexing, and database subscriptions.</p>
+                        <div class="staff-contact-box">
+                            <p>📧 <strong>Email:</strong> c.adebayo@madukauniversity.edu.ng</p>
+                            <p>📞 <strong>Phone:</strong> +234 (0) 803 222 3344</p>
+                            <p>🏢 <strong>Office:</strong> Digital Hub, Room 204</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Staff Member 3 -->
+                <article class="card staff-card" data-category="circulation">
+                    <div class="staff-header-flex">
+                        <img src="images/librarian3.jpg" alt="Portrait of Mr. Ibrahim Musa" class="staff-avatar">
+                        <div class="staff-title-area">
+                            <h3>Mr. Ibrahim Musa</h3>
+                            <p class="badge badge-green">Circulation Desk</p>
+                            <p class="designation">Circulation &amp; Reference Services Manager</p>
+                        </div>
+                    </div>
+                    <div class="staff-details">
+                        <p><strong>Qualifications:</strong> Higher National Diploma, B.LS Information Studies</p>
+                        <p><strong>Responsibilities:</strong> Oversees book checkouts, manage student account fines, resolve circulation disputes, and handle course reserve desks.</p>
+                        <div class="staff-contact-box">
+                            <p>📧 <strong>Email:</strong> i.musa@madukauniversity.edu.ng</p>
+                            <p>📞 <strong>Phone:</strong> +234 (0) 803 333 4455</p>
+                            <p>🏢 <strong>Office:</strong> Ground Floor Main Desk</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Staff Member 4 -->
+                <article class="card staff-card" data-category="cataloging">
+                    <div class="staff-header-flex">
+                        <img src="images/librarian4.jpg" alt="Portrait of Ms. Blessing Nnamdi" class="staff-avatar">
+                        <div class="staff-title-area">
+                            <h3>Ms. Blessing Nnamdi</h3>
+                            <p class="badge badge-green">Technical &amp; Cataloging</p>
+                            <p class="designation">Senior Metadata &amp; Archival Cataloger</p>
+                        </div>
+                    </div>
+                    <div class="staff-details">
+                        <p><strong>Qualifications:</strong> B.LS Library Science, MARC21 Certified Professional</p>
+                        <p><strong>Responsibilities:</strong> Classification of physical books according to Library of Congress system, indexing serials, and manuscript preservation.</p>
+                        <div class="staff-contact-box">
+                            <p>📧 <strong>Email:</strong> b.nnamdi@madukauniversity.edu.ng</p>
+                            <p>📞 <strong>Phone:</strong> +234 (0) 803 444 5566</p>
+                            <p>🏢 <strong>Office:</strong> Technical Services, Room 003</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Staff Member 5 -->
+                <article class="card staff-card" data-category="digital">
+                    <div class="staff-header-flex">
+                        <img src="images/librarian5.jpg" alt="Portrait of Engr. Chidi Nwosu" class="staff-avatar">
+                        <div class="staff-title-area">
+                            <h3>Engr. Chidi Nwosu</h3>
+                            <p class="badge badge-green">E-Library &amp; Systems</p>
+                            <p class="designation">Systems Administrator &amp; Network Engineer</p>
+                        </div>
+                    </div>
+                    <div class="staff-details">
+                        <p><strong>Qualifications:</strong> B.Eng. Electrical &amp; Computer Engineering, CCNA</p>
+                        <p><strong>Responsibilities:</strong> Maintaining high-speed campus Wi-Fi routing in library halls, troubleshooting workstation hardware, and network security.</p>
+                        <div class="staff-contact-box">
+                            <p>📧 <strong>Email:</strong> c.nwosu@madukauniversity.edu.ng</p>
+                            <p>📞 <strong>Phone:</strong> +234 (0) 803 555 6677</p>
+                            <p>🏢 <strong>Office:</strong> Server Room 205</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Staff Member 6 -->
+                <article class="card staff-card" data-category="circulation">
+                    <div class="staff-header-flex">
+                        <img src="images/librarian6.jpg" alt="Portrait of Mrs. Funke Adeleke" class="staff-avatar">
+                        <div class="staff-title-area">
+                            <h3>Mrs. Funke Adeleke</h3>
+                            <p class="badge badge-green">Circulation Desk</p>
+                            <p class="designation">Assistant Reader Services Officer</p>
+                        </div>
+                    </div>
+                    <div class="staff-details">
+                        <p><strong>Qualifications:</strong> Diploma in Library Science, B.A. English</p>
+                        <p><strong>Responsibilities:</strong> Registration of new undergraduate students, library card issuance, and managing study carrel allocations.</p>
+                        <div class="staff-contact-box">
+                            <p>📧 <strong>Email:</strong> f.adeleke@madukauniversity.edu.ng</p>
+                            <p>📞 <strong>Phone:</strong> +234 (0) 803 666 7788</p>
+                            <p>🏢 <strong>Office:</strong> Reader Registration Counter</p>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Department Responsibilities Table -->
+        <section class="table-section">
+            <h2 class="section-title">Department Contact &amp; Escalation Directory</h2>
+            <p>Use this reference table to route your specific requests directly to the responsible unit.</p>
+            
+            <div class="table-responsive">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Department / Unit</th>
+                            <th scope="col">Primary Services Offered</th>
+                            <th scope="col">Direct Extension</th>
+                            <th scope="col">Official Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Circulation Desk</td>
+                            <td>Book loans, renewals, returns, fine payments</td>
+                            <td>Ext. 102 / 103</td>
+                            <td>circulation@madukauniversity.edu.ng</td>
+                        </tr>
+                        <tr>
+                            <td>Reference Services</td>
+                            <td>Research consultations, citation assistance</td>
+                            <td>Ext. 108</td>
+                            <td>reference@madukauniversity.edu.ng</td>
+                        </tr>
+                        <tr>
+                            <td>E-Library Support</td>
+                            <td>mue.cblibrary.ng account issues, remote access</td>
+                            <td>Ext. 204</td>
+                            <td>elibrary@madukauniversity.edu.ng</td>
+                        </tr>
+                        <tr>
+                            <td>Technical Processing</td>
+                            <td>Book donation queries, ISBN indexing, cataloging</td>
+                            <td>Ext. 003</td>
+                            <td>cataloging@madukauniversity.edu.ng</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid grid-container grid-4">
+            <div class="footer-col">
+                <img src="images/logo.png" alt="Maduka Logo" class="footer-logo">
+                <h3>Maduka University</h3>
+                <p>Enugu-Ekwegbe Expressway, Igbo-Etiti LGA, Enugu State, Nigeria.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Directory Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="staff.html">Staff Directory</a></li>
+                    <li><a href="rules.html">Rules &amp; Regulations</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support Services</h4>
+                <ul class="footer-links">
+                    <li><a href="contact.html">Help Desk</a></li>
+                    <li><a href="digital.html">E-Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect With Us</h4>
+                <div class="social-box">
+                    <a href="https://facebook.com" target="_blank" rel="noopener" class="social-icon">Facebook</a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener" class="social-icon">Twitter / X</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container flex-between">
+                <p>&copy; 2026 Maduka University Library. Staff Directory Module.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

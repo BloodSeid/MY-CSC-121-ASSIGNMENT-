@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Maduka University Library team, submit research inquiries, book renewals, or technical support requests.">
+    <title>Maduka University Library | Contact Us &amp; Support Desk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="page-contact" data-page="contact">
+
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <div class="top-bar">
+        <div class="container flex-between">
+            <div class="top-info">
+                <span>📍 Enugu-Ekwegbe Expressway, Igbo-Etiti LGA, Enugu State</span>
+                <span class="divider">|</span>
+                <span>📞 +234 (0) 800 MADUKA LIB</span>
+            </div>
+            <div class="top-links">
+                <a href="https://mue.cblibrary.ng" target="_blank" rel="noopener">E-Portal Login</a>
+                <a href="contact.html">Helpdesk</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <div class="container header-grid">
+            <div class="brand-container">
+                <a href="index.html" class="logo-link">
+                    <img src="images/logo.png" alt="Maduka Logo" class="site-logo">
+                </a>
+                <div class="brand-text">
+                    <h1 class="university-name">Maduka University</h1>
+                    <p class="library-sub">Help Desk &amp; Inquiry Support Portal</p>
+                    <p class="tagline">"Knowledge, Innovation, and Character"</p>
+                </div>
+            </div>
+            <div class="header-widget">
+                <span class="status-indicator online">
+                    <span class="dot"></span>
+                    <span class="status-text">Desk Active: Response within 24 Hours</span>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Primary Navigation">
+        <div class="container flex-nav">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="staff.html" class="nav-link">Staff Directory</a></li>
+                <li class="nav-item"><a href="rules.html" class="nav-link">Rules &amp; Regulations</a></li>
+                <li class="nav-item"><a href="digital.html" class="nav-link">Digital Section</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active" aria-current="page">Contact &amp; Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content" class="container">
+
+        <section class="page-banner">
+            <h2>Get in Touch with Library Support</h2>
+            <p>Have questions regarding catalog items, database login issues, or research guidance? Send an official query directly to our desk staff.</p>
+        </section>
+
+        <div class="grid-container grid-2 contact-layout">
+
+            <!-- Interactive Validation Form -->
+            <section class="form-wrapper-card">
+                <h2 class="section-title">Submit Support Ticket</h2>
+                <p>Fill out all required fields marked with <span class="required">*</span>.</p>
+
+                <form id="contact-form" class="custom-form" novalidate>
+                    
+                    <div class="form-group">
+                        <label for="full-name">Full Name <span class="required">*</span></label>
+                        <input type="text" id="full-name" name="fullName" class="form-control" placeholder="e.g. John Okeke" required>
+                        <small class="error-msg" id="name-error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email-addr">University or Personal Email <span class="required">*</span></label>
+                        <input type="email" id="email-addr" name="email" class="form-control" placeholder="e.g. j.okeke@madukauniversity.edu.ng" required>
+                        <small class="error-msg" id="email-error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="matric-no">Matric / Staff ID Number <span class="required">*</span></label>
+                        <input type="text" id="matric-no" name="matricNo" class="form-control" placeholder="e.g. MU/2026/CSC/042" required>
+                        <small class="error-msg" id="matric-error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category">Inquiry Subject Category <span class="required">*</span></label>
+                        <select id="category" name="category" class="form-control" required>
+                            <option value="">-- Choose Category --</option>
+                            <option value="General Information">General Library Inquiry</option>
+                            <option value="E-Library Issue">E-Library Access / mue.cblibrary.ng Password</option>
+                            <option value="Book Renewal">Book Extension / Renewal Request</option>
+                            <option value="Research Support">Research Consultation with Librarian</option>
+                            <option value="Complaint">Feedback or Complaint</option>
+                        </select>
+                        <small class="error-msg" id="category-error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message-body">Detailed Message / Inquiry <span class="required">*</span></label>
+                        <textarea id="message-body" name="message" rows="6" class="form-control" placeholder="Type your detailed message here (minimum 15 characters)..." required></textarea>
+                        <small class="error-msg" id="message-error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" id="submit-contact-btn" class="btn btn-primary btn-block">Submit Inquiry Ticket</button>
+                    </div>
+
+                </form>
+
+                <div id="form-feedback-message" class="result-message-box" aria-live="polite"></div>
+            </section>
+
+            <!-- Physical Location & Contact Info Panel -->
+            <section class="info-wrapper-card">
+                <div class="card info-box-primary">
+                    <h3>Official Library Address</h3>
+                    <hr class="divider-hr">
+                    <p><strong>Maduka University Library Complex</strong><br>
+                    Enugu - Ekwegbe Expressway,<br>
+                    Igbo-Etiti Local Government Area,<br>
+                    Enugu State, Nigeria.</p>
+
+                    <h4>Direct Telephone Directory:</h4>
+                    <p>📱 Circulation Desk: +234 (0) 803 111 2233<br>
+                    📱 Digital Support Desk: +234 (0) 803 222 3344<br>
+                    📱 Office of the Librarian: +234 (0) 803 000 0000</p>
+
+                    <h4>Official Email Mailboxes:</h4>
+                    <p>✉️ General Desk: <code>library@madukauniversity.edu.ng</code><br>
+                    ✉️ E-Resources Desk: <code>elibrary@madukauniversity.edu.ng</code></p>
+                </div>
+
+                <!-- Official Social Media Profiles Card -->
+                <div class="card social-profiles-card">
+                    <h3>Official Social Media Handles</h3>
+                    <p>Follow our verified university accounts for realtime event notices, opening hours adjustments, and book additions:</p>
+                    
+                    <ul class="social-detailed-list">
+                        <li>
+                            <strong>Facebook:</strong> 
+                            <a href="https://facebook.com/MadukaUniversity" target="_blank" rel="noopener">facebook.com/MadukaUniversity</a>
+                        </li>
+                        <li>
+                            <strong>X (formerly Twitter):</strong> 
+                            <a href="https://twitter.com/MadukaUni" target="_blank" rel="noopener">@MadukaUni</a>
+                        </li>
+                        <li>
+                            <strong>LinkedIn:</strong> 
+                            <a href="https://linkedin.com/school/maduka-university" target="_blank" rel="noopener">linkedin.com/school/maduka-university</a>
+                        </li>
+                        <li>
+                            <strong>Instagram:</strong> 
+                            <a href="https://instagram.com/MadukaUniversity" target="_blank" rel="noopener">@MadukaUniversity Official</a>
+                        </li>
+                        <li>
+                            <strong>YouTube Channel:</strong> 
+                            <a href="https://youtube.com" target="_blank" rel="noopener">Maduka University Media Hub</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Google Maps / Campus Location Information Frame -->
+        <section class="location-map-section">
+            <h2 class="section-title">Campus Map &amp; Direction Guidelines</h2>
+            <div class="map-placeholder-box">
+                <div class="map-text text-center">
+                    <h3>🏛️ Located at the Central Academic Zone</h3>
+                    <p>The Library Building is situated directly opposite the Faculty of Computing &amp; Engineering Complex, accessible from the Main Gate via University Boulevard.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid grid-container grid-4">
+            <div class="footer-col">
+                <img src="images/logo.png" alt="Maduka Logo" class="footer-logo">
+                <h3>Maduka University</h3>
+                <p>Enugu-Ekwegbe Expressway, Igbo-Etiti LGA, Enugu State, Nigeria.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="staff.html">Staff Directory</a></li>
+                    <li><a href="contact.html">Contact Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Portals</h4>
+                <ul class="footer-links">
+                    <li><a href="https://mue.cblibrary.ng" target="_blank" rel="noopener">mue.cblibrary.ng</a></li>
+                    <li><a href="rules.html">Borrowing Rules</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Social Media</h4>
+                <div class="social-box">
+                    <a href="https://facebook.com" target="_blank" rel="noopener" class="social-icon">Facebook</a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener" class="social-icon">Twitter / X</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container flex-between">
+                <p>&copy; 2026 Maduka University Library. Contact &amp; Support Desk Module.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

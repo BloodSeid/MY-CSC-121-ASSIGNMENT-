@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official Library Policy, Rules of Conduct, Borrowing Terms, and Fine Schedule at Maduka University.">
+    <title>Maduka University Library | Rules, Regulations &amp; Policy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="page-rules" data-page="rules">
+
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <div class="top-bar">
+        <div class="container flex-between">
+            <div class="top-info">
+                <span>📍 Enugu-Ekwegbe Expressway, Igbo-Etiti LGA, Enugu State</span>
+                <span class="divider">|</span>
+                <span>📞 +234 (0) 800 MADUKA LIB</span>
+            </div>
+            <div class="top-links">
+                <a href="https://mue.cblibrary.ng" target="_blank" rel="noopener">E-Portal Login</a>
+                <a href="contact.html">Helpdesk</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <div class="container header-grid">
+            <div class="brand-container">
+                <a href="index.html" class="logo-link">
+                    <img src="images/logo.png" alt="Maduka Logo" class="site-logo">
+                </a>
+                <div class="brand-text">
+                    <h1 class="university-name">Maduka University</h1>
+                    <p class="library-sub">Library Code of Conduct &amp; Borrowing Regulations</p>
+                    <p class="tagline">"Knowledge, Innovation, and Character"</p>
+                </div>
+            </div>
+            <div class="header-widget">
+                <span class="badge badge-gold">Policy Version 2026.1</span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Primary Navigation">
+        <div class="container flex-nav">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="staff.html" class="nav-link">Staff Directory</a></li>
+                <li class="nav-item"><a href="rules.html" class="nav-link active" aria-current="page">Rules &amp; Regulations</a></li>
+                <li class="nav-item"><a href="digital.html" class="nav-link">Digital Section</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact &amp; Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content" class="container">
+
+        <section class="page-banner">
+            <h2>Library Governance &amp; Code of Conduct</h2>
+            <p>To preserve a quiet, dignified environment for learning and research, all readers and visitors must rigorously adhere to these regulations.</p>
+        </section>
+
+        <!-- General Code of Conduct List -->
+        <section class="rules-container">
+            <h2 class="section-title">General Code of Conduct</h2>
+            
+            <div class="grid-container grid-2">
+                <div class="rule-card">
+                    <div class="rule-number">01</div>
+                    <div class="rule-text">
+                        <h3>Identification &amp; Entry Control</h3>
+                        <p>All students, faculty, and visiting scholars must scan their valid Maduka University Smart ID Card at the electronic turnstiles upon entering and exiting the library building. Transferred or borrowed IDs are strictly confiscated.</p>
+                    </div>
+                </div>
+
+                <div class="rule-card">
+                    <div class="rule-number">02</div>
+                    <div class="rule-text">
+                        <h3>Noise &amp; Silent Study Zones</h3>
+                        <p>Strict silence must be observed in all Reading Halls. Mobile phones must be switched to silent mode. Voice calls, music playback without headphones, or group discussions outside designated Collaborative Rooms are prohibited.</p>
+                    </div>
+                </div>
+
+                <div class="rule-card">
+                    <div class="rule-number">03</div>
+                    <div class="rule-text">
+                        <h3>Food, Beverages &amp; Contraband</h3>
+                        <p>Eating, drinking open beverages, smoking, and bringing hazardous materials into reading rooms are strictly banned. Only clear bottled water with secure caps is permitted inside study carrels.</p>
+                    </div>
+                </div>
+
+                <div class="rule-card">
+                    <div class="rule-number">04</div>
+                    <div class="rule-text">
+                        <h3>Protection of Library Property</h3>
+                        <p>Defacing, underlining, tearing, or removing pages from books is treated as acts of vandalism. Offenders will be fined the full replacement cost of the book plus administrative fees and referred to the Disciplinary Committee.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Fee & Borrowing Limit Calculator Component -->
+        <section class="interactive-calculator-section">
+            <div class="calculator-card">
+                <div class="calculator-header">
+                    <h2>Interactive Student Borrowing &amp; Fine Eligibility Checker</h2>
+                    <p>Enter your student parameters below to calculate your book allowance, maximum loan duration, or accumulated late return fines.</p>
+                </div>
+
+                <form id="calculator-form" class="custom-form grid-container grid-3">
+                    <div class="form-group">
+                        <label for="user-category">User Category / Academic Level:</label>
+                        <select id="user-category" class="form-control" required>
+                            <option value="">-- Select Status --</option>
+                            <option value="100">100 Level Student</option>
+                            <option value="200">200 / 300 Level Student</option>
+                            <option value="400">400 Level / Finalist</option>
+                            <option value="pg">Postgraduate Student</option>
+                            <option value="faculty">Academic Staff / Faculty</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="days-overdue">Number of Days Overdue (if returning late):</label>
+                        <input type="number" id="days-overdue" min="0" value="0" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="clearance-status">Library Clearance Fee Status:</label>
+                        <select id="clearance-status" class="form-control" required>
+                            <option value="cleared">Paid &amp; Active</option>
+                            <option value="pending">Pending Payment</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group grid-span-3 text-center">
+                        <button type="button" id="calculate-btn" class="btn btn-primary">Calculate Allowance &amp; Fines</button>
+                    </div>
+                </form>
+
+                <!-- Dynamic Output Box -->
+                <div id="calculator-output" class="result-message-box" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <!-- Borrowing Rights Schedule Table -->
+        <section class="table-section">
+            <h2 class="section-title">Official Borrowing Allowances &amp; Fine Terms Schedule</h2>
+            
+            <div class="table-responsive">
+                <table class="data-table">
+                    <caption>Structured Library Privileges and Penalty Matrix</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">User Category</th>
+                            <th scope="col">Max Books Allowed</th>
+                            <th scope="col">Loan Period</th>
+                            <th scope="col">Renewal Limits</th>
+                            <th scope="col">Overdue Fine Rate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Undergraduates (100L - 300L)</td>
+                            <td>2 Textbooks</td>
+                            <td>14 Days</td>
+                            <td>1 Renewal (7 Days)</td>
+                            <td>&#8358;100 per day per book</td>
+                        </tr>
+                        <tr>
+                            <td>Final Year Students (400L)</td>
+                            <td>4 Textbooks</td>
+                            <td>21 Days</td>
+                            <td>2 Renewals</td>
+                            <td>&#8358;100 per day per book</td>
+                        </tr>
+                        <tr>
+                            <td>Postgraduate Students (M.Sc/Ph.D)</td>
+                            <td>6 Textbooks / Journals</td>
+                            <td>30 Days</td>
+                            <td>2 Renewals</td>
+                            <td>&#8358;200 per day per book</td>
+                        </tr>
+                        <tr>
+                            <td>Academic Staff &amp; Researchers</td>
+                            <td>10 Textbooks</td>
+                            <td>60 Days</td>
+                            <td>3 Renewals</td>
+                            <td>Grace Period Applies</td>
+                        </tr>
+                        <tr>
+                            <td>Non-Academic University Staff</td>
+                            <td>2 Textbooks</td>
+                            <td>14 Days</td>
+                            <td>1 Renewal</td>
+                            <td>&#8358;100 per day per book</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid grid-container grid-4">
+            <div class="footer-col">
+                <img src="images/logo.png" alt="Maduka Logo" class="footer-logo">
+                <h3>Maduka University</h3>
+                <p>Enugu-Ekwegbe Expressway, Igbo-Etiti LGA, Enugu State, Nigeria.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="staff.html">Staff Directory</a></li>
+                    <li><a href="rules.html">Rules Page</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal &amp; Policy</h4>
+                <ul class="footer-links">
+                    <li><a href="rules.html">Fine Schedule</a></li>
+                    <li><a href="contact.html">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect With Us</h4>
+                <div class="social-box">
+                    <a href="https://facebook.com" target="_blank" rel="noopener" class="social-icon">Facebook</a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener" class="social-icon">Twitter / X</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container flex-between">
+                <p>&copy; 2026 Maduka University Library. Governance &amp; Rules Module.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
