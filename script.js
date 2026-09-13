@@ -1,10 +1,4 @@
-/* ==========================================================================
-   MADUKA UNIVERSITY LIBRARY MASTER JAVASCRIPT ENGINE
-   Course: CSC121 - Introduction to Web Development
-   Features: Dynamic Search, Fine Calculator, Contact Form Validation, Staff Filter
-   ========================================================================== */
-
-console.log("[Maduka Library Engine] Script initialized successfully.");
+console.log("JavaScript Is working!");
 
 document.addEventListener("DOMContentLoaded", function () {
 
